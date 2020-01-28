@@ -1,0 +1,33 @@
+{
+  "name": "pipe-filter",
+  "version": "0.0.1",
+  "description": "Web debugging proxy application.",
+  "main": "./lib/main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "npm run build && electron ./lib/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongjianqiang/pipe-filter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Mozilla Public License Version 2.0",
+  "bugs": {
+    "url": "https://github.com/hongjianqiang/pipe-filter/issues"
+  },
+  "homepage": "https://github.com/hongjianqiang/pipe-filter#readme",
+  "dependencies": {
+    "electron": "7.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.6",
+    "@typescript-eslint/eslint-plugin": "2.13.0",
+    "@typescript-eslint/parser": "2.13.0",
+    "eslint": "5.16.0",
+    "eslint-config-google": "0.14.0",
+    "typescript": "3.7.5"
+  }
+}
