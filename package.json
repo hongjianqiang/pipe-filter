@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/hongjianqiang/pipe-filter#readme",
   "dependencies": {
-    "electron": "7.1.5"
+    "electron": "18.3.7"
   },
   "devDependencies": {
     "@types/node": "12.12.6",
